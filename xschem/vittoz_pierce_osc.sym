@@ -1,0 +1,40 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -130 -60 130 -60 {}
+L 4 -130 60 130 60 {}
+L 4 -130 -60 -130 60 {}
+L 4 130 -60 130 60 {}
+L 4 130 -20 150 -20 {}
+L 4 -150 -20 -130 -20 {}
+L 4 -150 20 -130 20 {}
+L 4 130 20 150 20 {}
+L 7 50 -80 50 -60 {}
+L 7 -60 -80 -60 -60 {}
+L 7 50 60 50 80 {}
+L 7 -60 60 -60 80 {}
+B 5 147.5 -22.5 152.5 -17.5 {name=XOUT dir=out}
+B 5 47.5 -82.5 52.5 -77.5 {name=SG_AVDD dir=inout}
+B 5 -62.5 -82.5 -57.5 -77.5 {name=EG_AVDD dir=inout}
+B 5 -152.5 -22.5 -147.5 -17.5 {name=XIN dir=in}
+B 5 -152.5 17.5 -147.5 22.5 {name=IBIAS dir=in}
+B 5 147.5 17.5 152.5 22.5 {name=AOUT dir=out}
+B 5 47.5 77.5 52.5 82.5 {name=SG_AVSS dir=inout}
+B 5 -62.5 77.5 -57.5 82.5 {name=EG_AVSS dir=inout}
+T {@symname} -69.5 -11 0 0 0.3 0.3 {}
+T {@name} 135 -72 0 0 0.2 0.2 {}
+T {XOUT} 125 -24 0 1 0.2 0.2 {}
+T {SG_AVDD} 75 -56.5 0 1 0.2 0.2 {}
+T {EG_AVDD} -35 -56.5 0 1 0.2 0.2 {}
+T {XIN} -125 -24 0 0 0.2 0.2 {}
+T {IBIAS} -125 16 0 0 0.2 0.2 {}
+T {AOUT} 125 16 0 1 0.2 0.2 {}
+T {SG_AVSS} 25 56.5 2 1 0.2 0.2 {}
+T {EG_AVSS} -85 56.5 2 1 0.2 0.2 {}
