@@ -77,13 +77,13 @@ N 520 -180 550 -180 {
 lab=AOUT}
 N 610 -180 640 -180 {
 lab=AIN}
-C {/foss/designs/test5/vittoz_pierce_osc.sym} 370 -200 0 0 {name=x1}
-C {/foss/designs/test5/schmitt_trigger_pullmid.sym} 810 -200 0 0 {name=x2}
+C {vittoz_pierce_osc.sym} 370 -200 0 0 {name=x1}
+C {schmitt_trigger_pullmid.sym} 810 -200 0 0 {name=x2}
 C {devices/lab_pin.sym} 220 -220 0 0 {name=p1 sig_type=std_logic lab=XIN}
 C {devices/lab_pin.sym} 520 -220 0 1 {name=p2 sig_type=std_logic lab=XOUT}
 C {devices/lab_pin.sym} 150 -400 0 0 {name=p3 sig_type=std_logic lab=IBIAS}
-C {/foss/designs/test5/level_shifter.sym} 320 -610 0 0 {name=x3}
-C {/foss/designs/test5/level_shifter.sym} 810 -610 0 0 {name=x4}
+C {level_shifter.sym} 320 -610 0 0 {name=x3}
+C {level_shifter.sym} 810 -610 0 0 {name=x4}
 C {devices/lab_pin.sym} 170 -610 0 0 {name=p4 sig_type=std_logic lab=ENA}
 C {devices/lab_pin.sym} 470 -640 0 1 {name=p5 sig_type=std_logic lab=ENA_B}
 C {devices/lab_pin.sym} 470 -610 0 1 {name=p6 sig_type=std_logic lab=ENA_H}

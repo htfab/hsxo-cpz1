@@ -51,8 +51,8 @@ N 30 80 140 80 {
 lab=#net1}
 N 10 -190 50 -190 {
 lab=#net2}
-C {/foss/designs/test5/sky130_ht_ip__hsxo_cpz1.sym} 220 -130 0 0 {name=x1}
-C {/foss/designs/test5/crystal_model.sym} 220 80 3 0 {name=X2 Lm=8.8m Cm=20f Rm=15 C0=4p icLm=0u}
+C {sky130_ht_ip__hsxo_cpz1.sym} 220 -130 0 0 {name=x1}
+C {crystal_model.sym} 220 80 3 0 {name=X2 Lm=8.8m Cm=20f Rm=15 C0=4p icLm=0u}
 C {devices/capa.sym} 300 130 0 0 {name=C1
 m=1
 value=11p
