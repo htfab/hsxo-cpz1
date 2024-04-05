@@ -214,7 +214,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 980 -130 0 0 {name=M16
 L=0.5
-W=128
+W=12.8
 body=EG_AVSS
 nf=4 mult=1
 model=nfet_g5v0d10v5
