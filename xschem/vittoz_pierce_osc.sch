@@ -185,7 +185,8 @@ model=res_xhigh_po_0p35
 spiceprefix=X
  mult=1}
 C {devices/lab_pin.sym} 530 -290 0 0 {name=p1 sig_type=std_logic lab=EG_AVSS}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 750 -170 0 0 {name=C1 model=cap_mim_m3_1 W=1 L=1 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 750 -170 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=1 spiceprefix=X
+}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 450 -220 3 0 {name=C2 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 550 -170 0 0 {name=C7 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 330 -220 0 0 {name=M13
@@ -251,7 +252,7 @@ spiceprefix=X
 C {devices/lab_pin.sym} 1360 -490 0 1 {name=p18 sig_type=std_logic lab=SG_AVDD}
 C {devices/ammeter.sym} 1200 -380 0 0 {name=Vmeas8 savecurrent=true}
 C {devices/lab_pin.sym} 1360 -310 0 1 {name=p19 sig_type=std_logic lab=AOUT}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1320 -200 0 0 {name=C8 model=cap_mim_m3_1 W=0.5 L=0.5 MF=12 spiceprefix=X
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1320 -200 0 0 {name=C8 model=cap_mim_m3_1 W=2 L=2 MF=1 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1360 -80 0 1 {name=p20 sig_type=std_logic lab=SG_AVSS}
 C {devices/lab_pin.sym} 1000 -290 0 1 {name=p21 sig_type=std_logic lab=IBIAS}
