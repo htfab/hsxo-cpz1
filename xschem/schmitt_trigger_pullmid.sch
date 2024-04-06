@@ -5,30 +5,8 @@ K {}
 V {}
 S {}
 E {}
-N 200 -260 200 -250 {
-lab=DMID}
-N 200 -250 200 -240 {
-lab=DMID}
-N 160 -260 200 -260 {
-lab=DMID}
 N 200 -260 270 -260 {
-lab=DMID}
-N 200 -280 200 -260 {
-lab=DMID}
-N 140 -310 160 -310 {
-lab=DMID}
-N 140 -310 140 -260 {
-lab=DMID}
-N 140 -260 160 -260 {
-lab=DMID}
-N 140 -260 140 -210 {
-lab=DMID}
-N 140 -210 160 -210 {
-lab=DMID}
-N 200 -180 200 -150 {
-lab=SG_DVSS}
-N 200 -370 200 -340 {
-lab=SG_DVDD}
+lab=#net1}
 N 500 -280 500 -240 {
 lab=DOUT}
 N 500 -380 500 -340 {
@@ -39,15 +17,11 @@ N 500 -460 500 -440 {
 lab=SG_DVDD}
 N 200 -460 500 -460 {
 lab=SG_DVDD}
-N 200 -460 200 -370 {
-lab=SG_DVDD}
 N 500 -80 500 -60 {
 lab=SG_DVSS}
 N 350 -60 500 -60 {
 lab=SG_DVSS}
 N 200 -60 350 -60 {
-lab=SG_DVSS}
-N 200 -150 200 -60 {
 lab=SG_DVSS}
 N 140 -60 200 -60 {
 lab=SG_DVSS}
@@ -95,29 +69,21 @@ N 730 -470 730 -450 {
 lab=SG_DVSS}
 N 330 -410 370 -410 {
 lab=AIN}
-C {sky130_fd_pr/pfet3_01v8.sym} 180 -310 0 0 {name=M1
-L=6
-W=0.5
-body=SG_DVDD
-nf=1 mult=1
-model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet3_01v8.sym} 180 -210 0 0 {name=M2
-L=4
-W=0.5
-body=SG_DVSS
-nf=1 mult=1
-model=nfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/res_xhigh_po_0p35.sym} 300 -260 3 0 {name=R2
+N 200 -460 200 -390 {
+lab=SG_DVDD}
+N 200 -330 200 -260 {
+lab=#net1}
+N 200 -260 200 -190 {
+lab=#net1}
+N 200 -130 200 -60 {
+lab=SG_DVSS}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 300 -260 3 0 {name=R3
 W=0.35
 L=128
 model=res_xhigh_po_0p35
 spiceprefix=X
-mult=1}
-C {devices/lab_wire.sym} 220 -260 0 1 {name=p1 sig_type=std_logic lab=DMID}
+mult=1
+}
 C {sky130_fd_pr/pfet3_01v8.sym} 480 -310 0 0 {name=M3
 L=0.3
 W=1
@@ -182,3 +148,18 @@ C {devices/opin.sym} 290 -560 0 0 {name=p14 lab=DOUT}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 730 -500 0 0 {name=C4 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {devices/lab_pin.sym} 730 -550 0 1 {name=p24 sig_type=std_logic lab=SG_DVDD}
 C {devices/lab_pin.sym} 730 -450 0 1 {name=p25 sig_type=std_logic lab=SG_DVSS}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 200 -360 0 0 {name=R1
+W=0.35
+L=16
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1
+}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 200 -160 0 0 {name=R2
+W=0.35
+L=16
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {devices/lab_pin.sym} 180 -360 0 0 {name=p1 sig_type=std_logic lab=SG_DVSS}
+C {devices/lab_pin.sym} 180 -160 0 0 {name=p15 sig_type=std_logic lab=SG_DVSS}
