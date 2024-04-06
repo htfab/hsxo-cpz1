@@ -167,9 +167,12 @@ nf=4 mult=1
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 350 -380 0 0 {name=Vmeas5 savecurrent=true}
-C {devices/ammeter.sym} 650 -380 0 0 {name=Vmeas6 savecurrent=true}
-C {devices/ammeter.sym} 870 -380 0 0 {name=Vmeas7 savecurrent=true}
+C {devices/ammeter.sym} 350 -380 0 0 {name=Vmeas3 savecurrent=false
+}
+C {devices/ammeter.sym} 650 -380 0 0 {name=Vmeas4 savecurrent=false
+}
+C {devices/ammeter.sym} 870 -380 0 0 {name=Vmeas2 savecurrent=false
+}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 630 -220 0 0 {name=M12
 L=0.5
 W=128
@@ -250,7 +253,8 @@ model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1360 -490 0 1 {name=p18 sig_type=std_logic lab=SG_AVDD}
-C {devices/ammeter.sym} 1200 -380 0 0 {name=Vmeas8 savecurrent=true}
+C {devices/ammeter.sym} 1200 -380 0 0 {name=Vmeas5 savecurrent=false
+}
 C {devices/lab_pin.sym} 1360 -310 0 1 {name=p19 sig_type=std_logic lab=AOUT}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1320 -200 0 0 {name=C8 model=cap_mim_m3_1 W=2 L=2 MF=1 spiceprefix=X
 }
@@ -272,4 +276,5 @@ C {devices/lab_pin.sym} 970 -580 0 0 {name=p17 sig_type=std_logic lab=EG_AVSS}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1110 -630 0 0 {name=C4 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {devices/lab_pin.sym} 1110 -680 0 1 {name=p24 sig_type=std_logic lab=SG_AVDD}
 C {devices/lab_pin.sym} 1110 -580 0 1 {name=p25 sig_type=std_logic lab=SG_AVSS}
-C {devices/ammeter.sym} 1000 -230 0 0 {name=Vmeas1 savecurrent=true}
+C {devices/ammeter.sym} 1000 -230 0 0 {name=Vmeas1 savecurrent=false
+}
