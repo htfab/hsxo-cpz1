@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713242883
+timestamp 1713252812
 << nwell >>
 rect 1400 -3210 2070 -1720
 rect 2490 -2360 3740 -1720
@@ -291,23 +291,23 @@ rect 1110 -5020 1700 -4960
 rect 1110 -5380 1500 -5180
 rect 1700 -5380 1706 -5180
 use level_shifter_dd  level_shifter_dd_0
-timestamp 1713242186
+timestamp 1713252812
 transform 1 0 1690 0 1 -1070
 box 220 -1910 960 -652
 use level_shifter_dd  level_shifter_dd_1
-timestamp 1713242186
+timestamp 1713252812
 transform 1 0 3360 0 1 -1070
 box 220 -1910 960 -652
 use sky130_fd_pr__nfet_01v8_F5PS5H  XM4
-timestamp 1713229799
+timestamp 1713252812
 transform 1 0 3829 0 1 -4720
 box -359 -410 359 410
 use sky130_fd_pr__nfet_01v8_F5PS5H  XM18
-timestamp 1713229799
+timestamp 1713252812
 transform 1 0 2461 0 1 -4720
 box -359 -410 359 410
 use sky130_fd_pr__pfet_01v8_XG6UDL  XM27
-timestamp 1712936344
+timestamp 1713252812
 transform 1 0 2459 0 1 -3631
 box -359 -419 359 419
 << labels >>

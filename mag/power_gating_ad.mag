@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713249912
+timestamp 1713252812
 << nwell >>
 rect 400 1410 4570 1420
 rect 400 620 1120 1410
@@ -518,39 +518,39 @@ rect 4490 -4230 5550 -4040
 rect 5750 -4230 5756 -4030
 rect 1920 -4406 2120 -4400
 use p_diode  D1
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 971 0 1 -3889
 box -371 -370 381 369
 use n_diode  D2
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 1813 0 1 -3887
 box -193 -193 193 193
 use level_shifter_ad  level_shifter_ad_0
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 140 0 1 1710
 box 880 -1970 2310 -210
 use level_shifter_ad  level_shifter_ad_1
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 2360 0 1 1710
 box 880 -1970 2310 -210
 use sky130_fd_pr__pfet_g5v0d10v5_KLHCT5  XM1
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 4285 0 1 -2363
 box -545 -497 545 497
 use sky130_fd_pr__pfet_g5v0d10v5_KLHCT5  XM2
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 1535 0 1 -2363
 box -545 -497 545 497
 use sky130_fd_pr__nfet_g5v0d10v5_F7BQJ6  XM3
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 4325 0 1 -3802
 box -515 -458 515 458
 use sky130_fd_pr__nfet_g5v0d10v5_F7BQJ6  XM21
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 2925 0 1 -3802
 box -515 -458 515 458
 use sky130_fd_pr__pfet_g5v0d10v5_KLHCT5  XM25
-timestamp 1713249912
+timestamp 1713252812
 transform 1 0 2915 0 1 -2363
 box -545 -497 545 497
 << labels >>

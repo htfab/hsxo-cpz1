@@ -1,40 +1,49 @@
 magic
 tech sky130A
-timestamp 1712933332
-<< metal1 >>
-rect 0 0 100 100
-rect 0 -200 100 -100
-rect 0 -400 100 -300
-rect 0 -600 100 -500
-rect 0 -800 100 -700
-rect 0 -1000 100 -900
-rect 0 -1200 100 -1100
-rect 0 -1400 100 -1300
-rect 0 -1600 100 -1500
-rect 0 -1800 100 -1700
-use sky130_fd_pr__cap_mim_m3_1_MPZGNS  XC1
-timestamp 1712933332
-transform 1 0 843 0 1 -5180
-box -843 -4980 843 4980
+magscale 1 2
+timestamp 1713259119
+<< metal3 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+rect 0 -3200 200 -3000
+rect 0 -3600 200 -3400
+use power_gating  power_gating_0
+timestamp 1713259026
+transform 1 0 1870 0 1 10256
+box -740 -14876 7170 5689
+use schmitt_trigger_pullmid  schmitt_trigger_pullmid_0
+timestamp 1713259026
+transform 1 0 23710 0 1 -840
+box 1390 -3990 5350 16820
+use vittoz_pierce_osc  vittoz_pierce_osc_0
+timestamp 1713259026
+transform 1 0 10050 0 1 -2190
+box -340 -3140 14366 18239
 << labels >>
-flabel metal1 0 0 100 100 0 FreeSans 128 0 0 0 XOUT
+flabel metal3 0 0 200 200 0 FreeSans 256 0 0 0 XOUT
 port 0 nsew
-flabel metal1 0 -200 100 -100 0 FreeSans 128 0 0 0 XIN
+flabel metal3 0 -400 200 -200 0 FreeSans 256 0 0 0 XIN
 port 1 nsew
-flabel metal1 0 -400 100 -300 0 FreeSans 128 0 0 0 ENA
+flabel metal3 0 -800 200 -600 0 FreeSans 256 0 0 0 ENA
 port 2 nsew
-flabel metal1 0 -600 100 -500 0 FreeSans 128 0 0 0 STDBY
+flabel metal3 0 -1200 200 -1000 0 FreeSans 256 0 0 0 STDBY
 port 3 nsew
-flabel metal1 0 -800 100 -700 0 FreeSans 128 0 0 0 DOUT
+flabel metal3 0 -1600 200 -1400 0 FreeSans 256 0 0 0 DOUT
 port 4 nsew
-flabel metal1 0 -1000 100 -900 0 FreeSans 128 0 0 0 AVDD
+flabel metal3 0 -2000 200 -1800 0 FreeSans 256 0 0 0 AVDD
 port 5 nsew
-flabel metal1 0 -1200 100 -1100 0 FreeSans 128 0 0 0 DVDD
+flabel metal3 0 -2400 200 -2200 0 FreeSans 256 0 0 0 DVDD
 port 6 nsew
-flabel metal1 0 -1400 100 -1300 0 FreeSans 128 0 0 0 AVSS
+flabel metal3 0 -2800 200 -2600 0 FreeSans 256 0 0 0 AVSS
 port 7 nsew
-flabel metal1 0 -1600 100 -1500 0 FreeSans 128 0 0 0 DVSS
+flabel metal3 0 -3200 200 -3000 0 FreeSans 256 0 0 0 DVSS
 port 8 nsew
-flabel metal1 0 -1800 100 -1700 0 FreeSans 128 0 0 0 IBIAS
+flabel metal3 0 -3600 200 -3400 0 FreeSans 256 0 0 0 IBIAS
 port 9 nsew
 << end >>
