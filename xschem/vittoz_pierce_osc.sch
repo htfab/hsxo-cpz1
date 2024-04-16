@@ -140,7 +140,7 @@ lab=SG_AVDD}
 N 1110 -600 1110 -580 {
 lab=SG_AVSS}
 N 1000 -290 1000 -260 {
-lab=IBIAS}
+lab=EG_IBIAS}
 N 1000 -200 1000 -160 {
 lab=#net4}
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 370 -440 0 1 {name=M9
@@ -167,12 +167,9 @@ nf=4 mult=1
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/ammeter.sym} 350 -380 0 0 {name=Vmeas3 savecurrent=false
-}
-C {devices/ammeter.sym} 650 -380 0 0 {name=Vmeas4 savecurrent=false
-}
-C {devices/ammeter.sym} 870 -380 0 0 {name=Vmeas2 savecurrent=false
-}
+C {devices/ammeter.sym} 350 -380 0 0 {name=Vmeas3 savecurrent=true}
+C {devices/ammeter.sym} 650 -380 0 0 {name=Vmeas4 savecurrent=true}
+C {devices/ammeter.sym} 870 -380 0 0 {name=Vmeas2 savecurrent=true}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 630 -220 0 0 {name=M12
 L=0.5
 W=128
@@ -253,13 +250,13 @@ model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1360 -490 0 1 {name=p18 sig_type=std_logic lab=SG_AVDD}
-C {devices/ammeter.sym} 1200 -380 0 0 {name=Vmeas5 savecurrent=false
-}
+C {devices/ammeter.sym} 1200 -380 0 0 {name=Vmeas5 savecurrent=true}
 C {devices/lab_pin.sym} 1360 -310 0 1 {name=p19 sig_type=std_logic lab=AOUT}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1320 -200 0 0 {name=C8 model=cap_mim_m3_1 W=2 L=2 MF=1 spiceprefix=X
 }
 C {devices/lab_pin.sym} 1360 -80 0 1 {name=p20 sig_type=std_logic lab=SG_AVSS}
-C {devices/lab_pin.sym} 1000 -290 0 1 {name=p21 sig_type=std_logic lab=IBIAS}
+C {devices/lab_pin.sym} 1000 -290 0 1 {name=p21 sig_type=std_logic lab=EG_IBIAS
+}
 C {devices/lab_pin.sym} 250 -440 0 0 {name=p22 sig_type=std_logic lab=PBIAS}
 C {devices/lab_pin.sym} 1130 -440 0 0 {name=p23 sig_type=std_logic lab=PBIAS}
 C {devices/iopin.sym} 60 -680 0 0 {name=p3 lab=EG_AVDD}
@@ -267,7 +264,7 @@ C {devices/iopin.sym} 60 -650 0 0 {name=p4 lab=EG_AVSS}
 C {devices/iopin.sym} 210 -680 0 0 {name=p5 lab=SG_AVDD}
 C {devices/iopin.sym} 210 -650 0 0 {name=p6 lab=SG_AVSS}
 C {devices/ipin.sym} 430 -680 0 0 {name=p7 lab=XIN}
-C {devices/ipin.sym} 430 -650 0 0 {name=p8 lab=IBIAS}
+C {devices/ipin.sym} 430 -650 0 0 {name=p8 lab=EG_IBIAS}
 C {devices/opin.sym} 470 -680 0 0 {name=p9 lab=XOUT}
 C {devices/opin.sym} 470 -650 0 0 {name=p10 lab=AOUT}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 970 -630 0 0 {name=C3 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
@@ -276,5 +273,4 @@ C {devices/lab_pin.sym} 970 -580 0 0 {name=p17 sig_type=std_logic lab=EG_AVSS}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1110 -630 0 0 {name=C4 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {devices/lab_pin.sym} 1110 -680 0 1 {name=p24 sig_type=std_logic lab=SG_AVDD}
 C {devices/lab_pin.sym} 1110 -580 0 1 {name=p25 sig_type=std_logic lab=SG_AVSS}
-C {devices/ammeter.sym} 1000 -230 0 0 {name=Vmeas1 savecurrent=false
-}
+C {devices/ammeter.sym} 1000 -230 0 0 {name=Vmeas1 savecurrent=true}

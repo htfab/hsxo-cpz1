@@ -91,7 +91,8 @@ C {devices/lab_pin.sym} -160 60 0 0 {name=p12 sig_type=std_logic lab=AVDD}
 C {devices/vsource.sym} -50 90 0 0 {name=V2 value=1.8 savecurrent=false}
 C {devices/lab_pin.sym} -50 120 0 0 {name=p13 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} -50 60 0 0 {name=p14 sig_type=std_logic lab=DVDD}
-C {crystal_model_p_res.sym} 270 40 3 0 {name=X2 f=12Meg Cm=20f Rm=15 C0=4p icLm=0m}
+C {crystal_model_p_res.sym} 270 40 3 0 {name=X2 f=12Meg Cm=20f Rm=15 C0=4p icLm=0m
+}
 C {devices/lab_pin.sym} 280 -50 0 0 {name=p15 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 450 -110 0 1 {name=p18 sig_type=std_logic lab=XOUT}
 C {devices/lab_pin.sym} 110 -110 0 0 {name=p19 sig_type=std_logic lab=XIN}

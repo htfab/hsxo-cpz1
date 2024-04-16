@@ -28,21 +28,19 @@ lab=SG_DVSS}
 N 140 -460 200 -460 {
 lab=SG_DVDD}
 N 420 -410 460 -410 {
-lab=AIN}
+lab=#net2}
 N 420 -310 460 -310 {
-lab=AIN}
+lab=#net2}
 N 420 -110 460 -110 {
-lab=AIN}
+lab=#net2}
 N 420 -210 460 -210 {
-lab=AIN}
+lab=#net2}
 N 420 -410 420 -260 {
-lab=AIN}
+lab=#net2}
 N 420 -260 420 -110 {
-lab=AIN}
+lab=#net2}
 N 330 -260 420 -260 {
-lab=AIN}
-N 370 -410 370 -260 {
-lab=AIN}
+lab=#net2}
 N 500 -360 580 -360 {
 lab=DHT}
 N 500 -160 580 -160 {
@@ -77,6 +75,10 @@ N 200 -260 200 -190 {
 lab=#net1}
 N 200 -130 200 -60 {
 lab=SG_DVSS}
+N 370 -410 370 -360 {
+lab=AIN}
+N 370 -300 370 -260 {
+lab=#net2}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 300 -260 3 0 {name=R3
 W=0.35
 L=128
@@ -163,3 +165,4 @@ spiceprefix=X
 mult=1}
 C {devices/lab_pin.sym} 180 -360 0 0 {name=p1 sig_type=std_logic lab=SG_DVSS}
 C {devices/lab_pin.sym} 180 -160 0 0 {name=p15 sig_type=std_logic lab=SG_DVSS}
+C {devices/ammeter.sym} 370 -330 0 0 {name=Vmeas6 savecurrent=true}
