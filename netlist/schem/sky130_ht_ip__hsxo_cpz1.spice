@@ -13,7 +13,7 @@
 x1 XOUT SG_AVDD EG_AVDD XIN EG_IBIAS AOUT SG_AVSS EG_AVSS vittoz_pierce_osc
 x2 SG_DVDD AIN DOUT SG_DVSS schmitt_trigger_pullmid
 XC1 AOUT AIN sky130_fd_pr__cap_mim_m3_1 W=15 L=15 MF=6 m=6
-x3 DOUT SG_AVDD DVDD EG_IBIAS SG_DVDD AVDD IBIAS EG_AVDD ENA SG_DVSS SG_AVSS STDBY EG_AVSS AVSS DVSS power_gating
+x3 DOUT SG_AVDD DVDD EG_IBIAS SG_DVDD AVDD IBIAS EG_AVDD ENA SG_DVSS SG_AVSS STDBY EG_AVSS AVSS DVSS XIN power_gating
 .ends
 
 * expanding   symbol:  vittoz_pierce_osc.sym # of pins=8
@@ -98,10 +98,10 @@ Vmeas6 AIN net2 0
 .ends
 
 
-* expanding   symbol:  /foss/designs/hsxo-cpz1/xschem/power_gating.sym # of pins=15
+* expanding   symbol:  /foss/designs/hsxo-cpz1/xschem/power_gating.sym # of pins=16
 ** sym_path: /foss/designs/hsxo-cpz1/xschem/power_gating.sym
 ** sch_path: /foss/designs/hsxo-cpz1/xschem/power_gating.sch
-.subckt power_gating DOUT SG_AVDD DVDD EG_IBIAS SG_DVDD AVDD IBIAS EG_AVDD ENA SG_DVSS SG_AVSS STDBY EG_AVSS AVSS DVSS
+.subckt power_gating DOUT SG_AVDD DVDD EG_IBIAS SG_DVDD AVDD IBIAS EG_AVDD ENA SG_DVSS SG_AVSS STDBY EG_AVSS AVSS DVSS XIN
 *.iopin DVDD
 *.iopin DVSS
 *.iopin AVDD
@@ -117,6 +117,7 @@ Vmeas6 AIN net2 0
 *.iopin SG_DVDD
 *.iopin SG_DVSS
 *.opin EG_IBIAS
+*.ipin XIN
 x3 AVDD ENA_B DVDD ENA ENA_H AVSS DVSS ENA_BH level_shifter
 x4 AVDD STDBY_B DVDD STDBY STDBY_H AVSS DVSS STDBY_BH level_shifter
 XM18 SG_DVSS STDBY_B DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
@@ -137,8 +138,8 @@ XM4 DOUT STDBY DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=4 ad='int((nf+1)/
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XC3 AVDD AVSS sky130_fd_pr__cap_mim_m3_1 W=15 L=15 MF=6 m=6
 XC4 DVDD DVSS sky130_fd_pr__cap_mim_m3_1 W=15 L=15 MF=6 m=6
-D1 XIN AVDD sky130_fd_pr__diode_pd2nw_05v5 area=2e11 pj=1.8e6
-D2 AVSS XIN sky130_fd_pr__diode_pw2nd_05v5 area=2e11 pj=1.8e6
+D1 XIN AVDD sky130_fd_pr__diode_pd2nw_11v0 area=2e11 pj=1.8e6
+D2 AVSS XIN sky130_fd_pr__diode_pw2nd_11v0 area=2e11 pj=1.8e6
 .ends
 
 
