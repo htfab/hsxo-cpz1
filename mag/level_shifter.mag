@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713242186
+timestamp 1713444626
 << dnwell >>
 rect 60 -3010 1840 780
 rect 3550 -3050 6100 1030
@@ -165,32 +165,32 @@ rect 2070 -2970 2076 -2770
 rect 2690 -2970 5190 -2770
 rect 2490 -2976 2690 -2970
 use level_shifter_ad  level_shifter_ad_0
-timestamp 1713241808
+timestamp 1713441789
 transform 1 0 3190 0 1 -300
 box 880 -1970 2310 -210
 use level_shifter_dd  level_shifter_dd_1
-timestamp 1713242186
+timestamp 1713441137
 transform 1 0 370 0 1 -200
 box 220 -1910 960 -652
 << labels >>
 flabel metal2 590 -1270 790 -1070 0 FreeSans 256 0 0 0 DVDD
-port 2 nsew
+port 3 nsew
 flabel metal2 590 -1900 790 -1700 0 FreeSans 256 0 0 0 DVSS
-port 6 nsew
-flabel metal2 590 -1590 790 -1390 0 FreeSans 256 0 0 0 LO
-port 3 nsew
-flabel metal2 1130 -1590 1330 -1390 0 FreeSans 256 0 0 0 LO_B
-port 1 nsew
-flabel metal2 4680 -710 4880 -510 0 FreeSans 256 0 0 0 AVDD
-port 0 nsew
-flabel metal2 4070 -1480 4270 -1280 0 FreeSans 256 0 0 0 HI_B
 port 7 nsew
-flabel metal2 4990 -2270 5190 -2070 0 FreeSans 256 0 0 0 LO_B
-port 1 nsew
-flabel metal2 4680 -2270 4880 -2070 0 FreeSans 256 0 0 0 AVSS
-port 5 nsew
-flabel metal2 5300 -1480 5500 -1280 0 FreeSans 256 0 0 0 HI
+flabel metal2 590 -1590 790 -1390 0 FreeSans 256 0 0 0 LO
 port 4 nsew
+flabel metal2 1130 -1590 1330 -1390 0 FreeSans 256 0 0 0 LO_B
+port 2 nsew
+flabel metal2 4680 -710 4880 -510 0 FreeSans 256 0 0 0 AVDD
+port 1 nsew
+flabel metal2 4070 -1480 4270 -1280 0 FreeSans 256 0 0 0 HI_B
+port 8 nsew
+flabel metal2 4990 -2270 5190 -2070 0 FreeSans 256 0 0 0 LO_B
+port 2 nsew
+flabel metal2 4680 -2270 4880 -2070 0 FreeSans 256 0 0 0 AVSS
+port 6 nsew
+flabel metal2 5300 -1480 5500 -1280 0 FreeSans 256 0 0 0 HI
+port 5 nsew
 flabel metal2 4380 -2270 4580 -2070 0 FreeSans 256 0 0 0 LO
-port 3 nsew
+port 4 nsew
 << end >>

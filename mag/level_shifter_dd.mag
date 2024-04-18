@@ -1,41 +1,58 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713252812
+timestamp 1713441137
+<< viali >>
+rect 416 -1158 450 -784
+rect 416 -1778 450 -1422
 << metal1 >>
+rect 396 -784 470 -764
+rect 396 -920 416 -784
+rect 264 -1020 270 -920
+rect 370 -1020 416 -920
+rect 396 -1158 416 -1020
+rect 450 -920 470 -784
 rect 540 -770 640 -760
 rect 540 -830 550 -770
 rect 630 -830 640 -770
 rect 540 -840 640 -830
-rect 264 -1020 270 -920
-rect 370 -921 540 -920
-rect 370 -1020 560 -921
-rect 480 -1021 560 -1020
+rect 450 -921 540 -920
+rect 450 -1020 560 -921
+rect 450 -1158 470 -1020
+rect 530 -1021 560 -1020
 rect 620 -1021 810 -921
+rect 396 -1178 470 -1158
 rect 540 -1110 640 -1100
 rect 540 -1180 550 -1110
 rect 630 -1180 640 -1110
 rect 540 -1190 640 -1180
 rect 540 -1400 640 -1390
+rect 396 -1422 470 -1402
+rect 396 -1550 416 -1422
+rect 264 -1650 270 -1550
+rect 370 -1650 416 -1550
+rect 396 -1778 416 -1650
+rect 450 -1550 470 -1422
 rect 540 -1460 550 -1400
 rect 630 -1460 640 -1400
 rect 540 -1470 640 -1460
 rect 710 -1550 810 -1021
 rect 910 -1340 916 -1240
-rect 264 -1650 270 -1550
-rect 370 -1650 560 -1550
+rect 450 -1650 560 -1550
 rect 620 -1650 810 -1550
+rect 450 -1778 470 -1650
+rect 396 -1798 470 -1778
 rect 540 -1740 640 -1730
 rect 540 -1800 550 -1740
 rect 630 -1800 640 -1740
 rect 540 -1810 640 -1800
 << via1 >>
-rect 550 -830 630 -770
 rect 270 -1020 370 -920
+rect 550 -830 630 -770
 rect 550 -1180 630 -1110
+rect 270 -1650 370 -1550
 rect 550 -1460 630 -1400
 rect 810 -1340 910 -1240
-rect 270 -1650 370 -1550
 rect 550 -1800 630 -1740
 << metal2 >>
 rect 541 -770 641 -757
@@ -74,16 +91,16 @@ timestamp 1713252812
 transform 1 0 591 0 1 -1600
 box -211 -310 211 310
 use sky130_fd_pr__pfet_01v8_XGS3BL  XM27
-timestamp 1713252812
+timestamp 1713441114
 transform 1 0 591 0 1 -971
 box -211 -319 211 319
 << labels >>
 flabel metal2 760 -1390 960 -1190 0 FreeSans 256 0 0 0 LO_B
-port 1 nsew
-flabel metal2 220 -1390 420 -1190 0 FreeSans 256 0 0 0 LO
 port 3 nsew
-flabel metal2 220 -1700 420 -1500 0 FreeSans 256 0 0 0 DVSS
-port 6 nsew
-flabel metal2 220 -1070 420 -870 0 FreeSans 256 0 0 0 DVDD
+flabel metal2 220 -1390 420 -1190 0 FreeSans 256 0 0 0 LO
 port 2 nsew
+flabel metal2 220 -1700 420 -1500 0 FreeSans 256 0 0 0 DVSS
+port 0 nsew
+flabel metal2 220 -1070 420 -870 0 FreeSans 256 0 0 0 DVDD
+port 1 nsew
 << end >>

@@ -219,11 +219,11 @@ C {sky130_fd_pr/cap_mim_m3_1.sym} 1270 -330 0 0 {name=C4 model=cap_mim_m3_1 W=15
 C {devices/lab_pin.sym} 1270 -380 0 0 {name=p46 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} 1270 -280 0 0 {name=p47 sig_type=std_logic lab=DVSS}
 C {sky130_fd_pr/diode.sym} 1150 -540 0 0 {name=D1
-model=diode_pd2nw_05v5
+model=diode_pd2nw_11v0
 area=2e11
 pj=1.8e6}
 C {sky130_fd_pr/diode.sym} 1150 -480 0 0 {name=D2
-model=diode_pw2nd_05v5
+model=diode_pw2nd_11v0
 area=2e11
 pj=1.8e6}
 C {devices/lab_pin.sym} 1120 -510 0 0 {name=p48 sig_type=std_logic lab=XIN}
