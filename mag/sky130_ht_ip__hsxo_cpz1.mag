@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713457371
+timestamp 1713665199
 << metal1 >>
 rect 0 16110 30870 16310
 rect 31070 16110 31076 16310
@@ -316,7 +316,7 @@ rect 27634 -4705 27635 -4505
 rect 27845 -4705 27846 -4505
 rect 27634 -4706 27846 -4705
 use power_gating  power_gating_0
-timestamp 1713449301
+timestamp 1713665199
 transform 1 0 1870 0 1 10256
 box -740 -14876 7170 5689
 use schmitt_trigger_pullmid  schmitt_trigger_pullmid_0

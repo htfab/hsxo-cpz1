@@ -1,0 +1,8 @@
+*~
+xschem/xschemrc
+xschem/*.svg
+xschem/*.pdf
+mag/extfiles
+mag/*.spice
+mag/comp.out
+mag/comp.json
