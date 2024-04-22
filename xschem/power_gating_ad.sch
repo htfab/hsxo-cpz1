@@ -89,33 +89,33 @@ C {devices/lab_pin.sym} 920 -610 0 1 {name=p19 sig_type=std_logic lab=AVSS
 }
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 340 -160 0 0 {name=M21
 L=0.5
-W=8
+W=32
 body=AVSS
-nf=4 mult=1
+nf=8 mult=1
 model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 340 -420 0 0 {name=M25
 L=0.5
-W=8
+W=32
 body=AVDD
-nf=4 mult=1
+nf=8 mult=1
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 490 -420 0 1 {name=M1
 L=0.5
-W=8
+W=32
 body=AVDD
-nf=4 mult=1
+nf=8 mult=1
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_g5v0d10v5.sym} 180 -420 0 0 {name=M2
 L=0.5
-W=8
+W=32
 body=AVDD
-nf=4 mult=1
+nf=8 mult=1
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
@@ -125,9 +125,9 @@ C {devices/lab_pin.sym} 510 -420 0 1 {name=p23 sig_type=std_logic lab=STDBY_H}
 C {devices/lab_pin.sym} 420 -490 0 0 {name=p24 sig_type=std_logic lab=AVDD}
 C {sky130_fd_pr/nfet3_g5v0d10v5.sym} 490 -160 0 1 {name=M3
 L=0.5
-W=8
+W=32
 body=AVSS
-nf=4 mult=1
+nf=8 mult=1
 model=nfet_g5v0d10v5
 spiceprefix=X
 }

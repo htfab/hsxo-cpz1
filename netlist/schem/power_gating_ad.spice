@@ -15,15 +15,15 @@
 *.ipin STDBY_B
 x3 AVDD ENA_B ENA ENA_H AVSS ENA_BH level_shifter_ad
 x4 AVDD STDBY_B STDBY STDBY_H AVSS STDBY_BH level_shifter_ad
-XM21 EG_AVSS ENA_H AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM21 EG_AVSS ENA_H AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM25 EG_AVDD ENA_BH AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM25 EG_AVDD ENA_BH AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM1 SG_AVDD STDBY_H AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM1 SG_AVDD STDBY_H AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM2 EG_IBIAS ENA_BH IBIAS AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM2 EG_IBIAS ENA_BH IBIAS AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM3 SG_AVSS STDBY_BH AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM3 SG_AVSS STDBY_BH AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 D1 XIN AVDD sky130_fd_pr__diode_pd2nw_11v0 area=2e11 pj=1.8e6
 D2 AVSS XIN sky130_fd_pr__diode_pw2nd_11v0 area=2e11 pj=1.8e6
