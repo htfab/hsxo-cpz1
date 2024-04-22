@@ -5,6 +5,7 @@ K {}
 V {}
 S {}
 E {}
+N -120 -30 -60 -30 {}
 C {sky130_ht_ip__hsxo_cpz1.sym} 0 -130 0 0 {name=X1}
 C {devices/lab_pin.sym} 60 -30 0 1 {name=p2 sig_type=std_logic lab=AVSS
 }
@@ -17,7 +18,7 @@ C {devices/lab_pin.sym} -170 -130 0 0 {name=p10 sig_type=std_logic lab=STDBY
 }
 C {package_model.sym} 0 80 0 0 {name=X2
 }
-C {devices/lab_pin.sym} -60 -30 0 0 {name=p15 sig_type=std_logic lab=GND}
+C {devices/lab_pin.sym} -120 -30 0 0 {name=p15 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 0 150 0 0 {name=p16 sig_type=std_logic lab=GND}
 C {devices/lab_pin.sym} 170 -90 0 1 {name=p18 sig_type=std_logic lab=XOUTPAD}
 C {devices/lab_pin.sym} -170 -90 0 0 {name=p19 sig_type=std_logic lab=XINPAD}

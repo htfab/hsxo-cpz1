@@ -74,3 +74,4 @@ C {devices/lab_pin.sym} 210 -140 0 0 {name=p15 sig_type=std_logic lab=EG_IBIAS
 C {devices/lab_pin.sym} 800 -240 0 1 {name=p16 sig_type=std_logic lab=SG_DVDD}
 C {devices/lab_pin.sym} 800 -80 0 1 {name=p17 sig_type=std_logic lab=SG_DVSS
 }
+C {devices/iopin.sym} 700 -680 0 0 {name=p18 lab=GUARD}
