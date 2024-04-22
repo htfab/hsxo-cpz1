@@ -59,17 +59,17 @@ C {devices/lab_pin.sym} 800 -610 0 0 {name=p17 sig_type=std_logic lab=DVSS}
 C {devices/lab_pin.sym} 1070 -270 0 1 {name=p20 sig_type=std_logic lab=DOUT}
 C {sky130_fd_pr/nfet3_01v8.sym} 880 -160 0 1 {name=M18
 L=0.15
-W=8
+W=32
 body=DVSS
-nf=4 mult=1
+nf=8 mult=1
 model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 880 -420 0 1 {name=M27
 L=0.15
-W=8
+W=32
 body=DVDD
-nf=4 mult=1
+nf=8 mult=1
 model=pfet_01v8
 spiceprefix=X
 }
@@ -84,9 +84,9 @@ C {devices/ipin.sym} 520 -880 0 0 {name=p37 lab=STDBY}
 C {devices/opin.sym} 1160 -910 0 0 {name=p40 lab=DOUT}
 C {sky130_fd_pr/nfet3_01v8.sym} 1070 -160 0 1 {name=M4
 L=0.15
-W=8
+W=32
 body=DVSS
-nf=4 mult=1
+nf=8 mult=1
 model=nfet_01v8
 spiceprefix=X
 }

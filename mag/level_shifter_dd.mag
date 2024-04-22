@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713441137
+timestamp 1713791489
 << viali >>
 rect 416 -1158 450 -784
 rect 416 -1778 450 -1422
@@ -91,7 +91,7 @@ timestamp 1713252812
 transform 1 0 591 0 1 -1600
 box -211 -310 211 310
 use sky130_fd_pr__pfet_01v8_XGS3BL  XM27
-timestamp 1713441114
+timestamp 1713791489
 transform 1 0 591 0 1 -971
 box -211 -319 211 319
 << labels >>
