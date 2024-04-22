@@ -120,21 +120,21 @@ Vmeas6 AIN net2 0
 *.ipin XIN
 x3 AVDD ENA_B DVDD ENA ENA_H AVSS DVSS ENA_BH level_shifter
 x4 AVDD STDBY_B DVDD STDBY STDBY_H AVSS DVSS STDBY_BH level_shifter
-XM18 SG_DVSS STDBY_B DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM18 SG_DVSS STDBY_B DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM21 EG_AVSS ENA_H AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM21 EG_AVSS ENA_H AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM25 EG_AVDD ENA_BH AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM25 EG_AVDD ENA_BH AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM27 SG_DVDD STDBY DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM27 SG_DVDD STDBY DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM1 SG_AVDD STDBY_H AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM1 SG_AVDD STDBY_H AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM2 EG_IBIAS ENA_BH IBIAS AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM2 EG_IBIAS ENA_BH IBIAS AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM3 SG_AVSS STDBY_BH AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM3 SG_AVSS STDBY_BH AVSS AVSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM4 DOUT STDBY DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=8 nf=4 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM4 DOUT STDBY DVSS DVSS sky130_fd_pr__nfet_01v8 L=0.15 W=32 nf=8 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XC3 AVDD AVSS sky130_fd_pr__cap_mim_m3_1 W=15 L=15 MF=6 m=6
 XC4 DVDD DVSS sky130_fd_pr__cap_mim_m3_1 W=15 L=15 MF=6 m=6

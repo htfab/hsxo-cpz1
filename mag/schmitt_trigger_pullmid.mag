@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713804741
+timestamp 1713812475
 << nwell >>
 rect 1591 3830 5159 4119
 rect 1591 3793 1880 3830
@@ -398,11 +398,11 @@ transform 1 0 2742 0 1 272
 box -782 -2202 782 2202
 << labels >>
 flabel metal2 1390 820 1590 1020 0 FreeSans 256 0 0 0 AIN
-port 1 nsew
-flabel metal2 5150 820 5350 1020 0 FreeSans 256 0 0 0 DOUT
 port 2 nsew
-flabel metal2 4480 16620 4680 16820 0 FreeSans 256 0 0 0 SG_DVDD
-port 0 nsew
-flabel metal2 4480 -3990 4680 -3790 0 FreeSans 256 0 0 0 SG_DVSS
+flabel metal2 5150 820 5350 1020 0 FreeSans 256 0 0 0 DOUT
 port 3 nsew
+flabel metal2 4480 16620 4680 16820 0 FreeSans 256 0 0 0 SG_DVDD
+port 1 nsew
+flabel metal2 4480 -3990 4680 -3790 0 FreeSans 256 0 0 0 SG_DVSS
+port 4 nsew
 << end >>

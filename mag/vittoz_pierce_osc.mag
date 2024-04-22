@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713804741
+timestamp 1713812475
 << dnwell >>
 rect 380 330 9870 15250
 rect 11130 4760 13440 15250
@@ -403,12 +403,11 @@ rect 3080 -2130 3280 710
 rect 3080 -2336 3280 -2330
 rect 4930 -2130 5130 710
 rect 4930 -2336 5130 -2330
-rect 9570 -3730 9770 710
+rect 9570 -3230 9770 710
 rect 11180 -1740 13660 -1540
 rect 13860 -1740 13866 -1540
 rect 11180 -2190 11380 -1740
 rect 11180 -2396 11380 -2390
-rect 9570 -3936 9770 -3930
 << via1 >>
 rect 9280 14380 9480 14580
 rect 1130 12730 1410 13420
@@ -527,7 +526,6 @@ rect 3080 -2330 3280 -2130
 rect 4930 -2330 5130 -2130
 rect 13660 -1740 13860 -1540
 rect 11180 -2390 11380 -2190
-rect 9570 -3930 9770 -3730
 << metal2 >>
 rect 11880 18830 12680 18839
 rect 8270 18810 9070 18819
@@ -740,9 +738,6 @@ rect 11380 -2390 11389 -2190
 rect 13440 -2990 14370 -2190
 rect 12640 -2999 13440 -2990
 rect 1300 -3540 10960 -3340
-rect 9564 -3930 9570 -3730
-rect 9770 -3930 9776 -3730
-rect 9570 -3940 9770 -3930
 << via2 >>
 rect 8270 18010 9070 18810
 rect 11880 18030 12680 18830
@@ -991,19 +986,19 @@ transform 1 0 1213 0 1 8510
 box -255 -932 255 932
 << labels >>
 flabel metal2 14156 8260 14356 8460 0 FreeSans 256 0 0 0 AOUT
-port 5 nsew
-flabel metal2 -340 12140 460 12940 0 FreeSans 256 0 0 0 EG_AVDD
-port 2 nsew
-flabel metal2 -340 1310 460 2110 0 FreeSans 256 0 0 0 EG_AVSS
-port 7 nsew
-flabel metal2 -340 7370 -140 7570 0 FreeSans 256 0 0 0 XIN
-port 3 nsew
-flabel metal2 -340 5130 -140 5330 0 FreeSans 256 0 0 0 XOUT
-port 0 nsew
-flabel metal2 9570 -3930 9770 -3730 0 FreeSans 256 0 0 0 EG_IBIAS
-port 4 nsew
-flabel metal2 13560 12140 14360 12940 0 FreeSans 256 0 0 0 SG_AVDD
-port 1 nsew
-flabel metal2 13566 -2990 14366 -2190 0 FreeSans 256 0 0 0 SG_AVSS
 port 6 nsew
+flabel metal2 -340 12140 460 12940 0 FreeSans 256 0 0 0 EG_AVDD
+port 3 nsew
+flabel metal2 -340 1310 460 2110 0 FreeSans 256 0 0 0 EG_AVSS
+port 8 nsew
+flabel metal2 -340 7370 -140 7570 0 FreeSans 256 0 0 0 XIN
+port 4 nsew
+flabel metal2 -340 5130 -140 5330 0 FreeSans 256 0 0 0 XOUT
+port 1 nsew
+flabel metal2 13560 12140 14360 12940 0 FreeSans 256 0 0 0 SG_AVDD
+port 2 nsew
+flabel metal2 13566 -2990 14366 -2190 0 FreeSans 256 0 0 0 SG_AVSS
+port 7 nsew
+flabel metal1 9570 -3230 9770 -3030 0 FreeSans 256 0 0 0 EG_IBIAS
+port 5 nsew
 << end >>

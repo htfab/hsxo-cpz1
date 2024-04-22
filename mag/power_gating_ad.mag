@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713806203
+timestamp 1713809040
 << nwell >>
 rect 490 2610 5770 2620
 rect 490 1830 1120 2610
@@ -682,12 +682,12 @@ rect 7350 -7290 8150 -7284
 rect 954 -7460 1154 -7454
 rect 2320 -7460 2520 -7454
 rect 2970 -7460 7350 -7290
-rect -1590 -7660 954 -7460
+rect -790 -7660 954 -7460
 rect 1154 -7660 2320 -7460
 rect 2520 -7660 7350 -7460
-rect -1590 -8090 7350 -7660
+rect -790 -8090 7350 -7660
 rect 8150 -8090 8156 -7290
-rect -1590 -8260 3770 -8090
+rect -790 -8260 3770 -8090
 rect 7350 -8096 8150 -8090
 use level_shifter_ad  level_shifter_ad_0
 timestamp 1713804741
@@ -750,10 +750,10 @@ flabel metal1 -730 -8660 -530 -8460 0 FreeSans 256 0 0 0 STDBY
 port 4 nsew
 flabel metal1 -1580 -8660 -1380 -8460 0 FreeSans 256 0 0 0 ENA
 port 3 nsew
-flabel metal2 -1590 -8260 -790 -7460 0 FreeSans 256 0 0 0 AVSS
-port 2 nsew
 flabel metal2 -1590 2730 -790 3530 0 FreeSans 256 0 0 0 AVDD
 port 1 nsew
 flabel metal2 5050 2730 5850 3530 0 FreeSans 256 0 0 0 AVDD
 port 1 nsew
+flabel metal2 -790 -8260 10 -7460 0 FreeSans 256 0 0 0 AVSS
+port 2 nsew
 << end >>
