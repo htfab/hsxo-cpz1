@@ -55,7 +55,7 @@ C {devices/ipin.sym} 360 -680 0 0 {name=p41 lab=IBIAS}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 570 -140 3 0 {name=C1 model=cap_mim_m3_1 W=15 L=15 MF=6 spiceprefix=X}
 C {devices/lab_pin.sym} 510 -120 0 1 {name=p49 sig_type=std_logic lab=AOUT}
 C {devices/lab_pin.sym} 630 -120 2 1 {name=p50 sig_type=std_logic lab=AIN}
-C {/foss/designs/hsxo-cpz1/xschem/power_gating.sym} 570 -440 0 0 {name=x3}
+C {power_gating.sym} 570 -440 0 0 {name=x3}
 C {devices/lab_pin.sym} 720 -530 0 1 {name=p4 sig_type=std_logic lab=EG_AVDD}
 C {devices/lab_pin.sym} 720 -510 0 1 {name=p5 sig_type=std_logic lab=EG_AVSS}
 C {devices/lab_pin.sym} 720 -480 0 1 {name=p6 sig_type=std_logic lab=SG_AVDD}
