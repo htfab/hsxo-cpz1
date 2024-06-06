@@ -1,0 +1,363 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__diode_pd2nw_11v0 and Circuit 2 cell sky130_fd_pr__diode_pd2nw_11v0 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pd2nw_11v0 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pd2nw_11v0 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__diode_pd2nw_11v0  |Circuit 2: sky130_fd_pr__diode_pd2nw_11v0  
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__diode_pd2nw_11v0 and sky130_fd_pr__diode_pd2nw_11v0 are equivalent.
+
+Cell sky130_fd_pr__diode_pw2nd_11v0 (1) disconnected node: anode
+Cell sky130_fd_pr__diode_pw2nd_11v0 (1) disconnected node: cathode
+Warning: Equate pins:  cell sky130_fd_pr__diode_pw2nd_11v0 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__diode_pw2nd_11v0  |Circuit 2: sky130_fd_pr__diode_pw2nd_11v0  
+-------------------------------------------|-------------------------------------------
+(no matching pin)                          |anode                                      
+(no matching pin)                          |cathode                                    
+1                                          |(no matching pin)                          
+2                                          |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__diode_pw2nd_11v0 and sky130_fd_pr__diode_pw2nd_11v0 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+Flattening unmatched subcell power_gating_ad in circuit power_gating (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KL7ZY6 in circuit power_gating (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__diode_pd2nw_11v0_K4SERG in circuit power_gating (0)(1 instance)
+Flattening unmatched subcell level_shifter_ad in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLAZY6 in circuit power_gating (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_UNEQ2N in circuit power_gating (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_11v0_FT76RJ in circuit power_gating (0)(1 instance)
+Flattening unmatched subcell power_gating_dd in circuit power_gating (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_HNLS5R in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell level_shifter_dd in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_XGS3BL in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_648S5X in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_XGNZDL in circuit power_gating (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MPZGNS in circuit power_gating (0)(2 instances)
+Flattening unmatched subcell level_shifter_xd in circuit power_gating (1)(2 instances)
+
+Cell power_gating (0) disconnected node: li_4587_n15047#
+Class power_gating (0):  Merged 66 parallel devices.
+Cell power_gating (0) disconnected node: li_4587_n15047#
+Subcircuit summary:
+Circuit 1: power_gating                    |Circuit 2: power_gating                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (28->7)       |sky130_fd_pr__pfet_g5v0d10v5 (7)           
+sky130_fd_pr__nfet_g5v0d10v5 (20->6)       |sky130_fd_pr__nfet_g5v0d10v5 (6)           
+sky130_fd_pr__diode_pd2nw_11v0 (1)         |sky130_fd_pr__diode_pd2nw_11v0 (1)         
+sky130_fd_pr__diode_pw2nd_11v0 (1)         |sky130_fd_pr__diode_pw2nd_11v0 (1)         
+sky130_fd_pr__nfet_01v8 (18->4)            |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_pr__pfet_01v8 (10->3)            |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__cap_mim_m3_1 (12->2)         |sky130_fd_pr__cap_mim_m3_1 (12->2)         
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 24                         |Number of nets: 24                         
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: power_gating                    |Circuit 2: power_gating                    
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 6   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 6   
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 6       |  sky130_fd_pr__nfet_g5v0d10v5/4 = 6       
+  sky130_fd_pr__diode_pw2nd_11v0/1 = 1     |  sky130_fd_pr__diode_pw2nd_11v0/anode = 1 
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: XIN                                   |Net: XIN                                   
+  sky130_fd_pr__diode_pd2nw_11v0/1 = 1     |  sky130_fd_pr__diode_pd2nw_11v0/1 = 1     
+  sky130_fd_pr__diode_pw2nd_11v0/2 = 1     |  sky130_fd_pr__diode_pw2nd_11v0/cathode = 
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: /power_gating_ad_1//sky130_fd_pr__dio |Net: dummy_24                              
+  sky130_fd_pr__diode_pw2nd_11v0/proxycath |  sky130_fd_pr__diode_pw2nd_11v0/proxy2 =  
+                                           |                                           
+Net: /power_gating_ad_1//sky130_fd_pr__dio |Net: dummy_23                              
+  sky130_fd_pr__diode_pw2nd_11v0/proxyanod |  sky130_fd_pr__diode_pw2nd_11v0/proxy1 =  
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: power_gating                    |Circuit 2: power_gating                    
+
+---------------------------------------------------------------------------------------
+Instance: power_gating_ad_1//sky130_fd_pr_ |Instance: sky130_fd_pr__diode_pw2nd_11v0:D 
+  1 = 14                                   |  proxy1 = 1                               
+  2 = 2                                    |  proxy2 = 1                               
+  proxyanode = 1                           |  anode = 14                               
+  proxycathode = 1                         |  cathode = 2                              
+---------------------------------------------------------------------------------------
+Netlists do not match.
+  Flattening non-matched subcircuits power_gating power_gating
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_33YP5M in circuit schmitt_trigger_pullmid (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_METDPQ in circuit schmitt_trigger_pullmid (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6QYSWZ in circuit schmitt_trigger_pullmid (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_723X3M in circuit schmitt_trigger_pullmid (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MPZGNS in circuit schmitt_trigger_pullmid (0)(1 instance)
+
+Removing zero-valued device vsrc from cell schmitt_trigger_pullmid (1) makes a better match
+Making another compare attempt.
+
+Class schmitt_trigger_pullmid (0):  Merged 5 parallel devices.
+Class schmitt_trigger_pullmid (0):  Merged 13 series devices.
+Subcircuit summary:
+Circuit 1: schmitt_trigger_pullmid         |Circuit 2: schmitt_trigger_pullmid         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p35 (16->3)    |sky130_fd_pr__res_xhigh_po_0p35 (3)        
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__cap_mim_m3_1 (6->1)          |sky130_fd_pr__cap_mim_m3_1 (6->1)          
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__res_xhigh_po_0p35_METDPQ:XR3/sky130_fd_pr__res_xhigh_po_0p35:1 vs. sky130_fd_pr__res_xhigh_po_0p35:R3:
+ l circuit1: 129.6   circuit2: 128   (delta=1.24%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po_0p35_33YP5M_0/sky130_fd_pr__res_xhigh_po_0p35:0 vs. sky130_fd_pr__res_xhigh_po_0p35:R1:
+ l circuit1: 16.64   circuit2: 16   (delta=3.92%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po_0p35_33YP5M:XR2/sky130_fd_pr__res_xhigh_po_0p35:1 vs. sky130_fd_pr__res_xhigh_po_0p35:R2:
+ l circuit1: 16.64   circuit2: 16   (delta=3.92%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: schmitt_trigger_pullmid         |Circuit 2: schmitt_trigger_pullmid         
+-------------------------------------------|-------------------------------------------
+DOUT                                       |DOUT                                       
+AIN                                        |AIN                                        
+SG_DVSS                                    |SG_DVSS                                    
+SG_DVDD                                    |SG_DVDD                                    
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes schmitt_trigger_pullmid and schmitt_trigger_pullmid are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_JULQJE in circuit vittoz_pierce_osc (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_KDBUUD in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_844AHT in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YNEQJ5 in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3 in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_E4ZTVH in circuit vittoz_pierce_osc (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_86VAEW in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_NH48NT in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_AQSVLT in circuit vittoz_pierce_osc (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_VCTT89 in circuit vittoz_pierce_osc (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MPZGNS in circuit vittoz_pierce_osc (0)(4 instances)
+
+Removing zero-valued device vsrc from cell vittoz_pierce_osc (1) makes a better match
+Removing zero-valued device vsrc from cell vittoz_pierce_osc (1) makes a better match
+Removing zero-valued device vsrc from cell vittoz_pierce_osc (1) makes a better match
+Removing zero-valued device vsrc from cell vittoz_pierce_osc (1) makes a better match
+Removing zero-valued device vsrc from cell vittoz_pierce_osc (1) makes a better match
+Making another compare attempt.
+
+Class vittoz_pierce_osc (0):  Merged 97 parallel devices.
+Subcircuit summary:
+Circuit 1: vittoz_pierce_osc               |Circuit 2: vittoz_pierce_osc               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (43->6)       |sky130_fd_pr__nfet_g5v0d10v5 (6)           
+sky130_fd_pr__pfet_g5v0d10v5 (44->4)       |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+sky130_fd_pr__res_xhigh_po_0p35 (2)        |sky130_fd_pr__res_xhigh_po_0p35 (2)        
+sky130_fd_pr__cap_mim_m3_1 (26->6)         |sky130_fd_pr__cap_mim_m3_1 (26->6)         
+Number of devices: 18                      |Number of devices: 18                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__res_xhigh_po_0p35_86VAEW:XR1/sky130_fd_pr__res_xhigh_po_0p35:0 vs. sky130_fd_pr__res_xhigh_po_0p35:R1:
+ l circuit1: 7.16   circuit2: 7   (delta=2.26%, cutoff=1%)
+sky130_fd_pr__res_xhigh_po_0p35_NH48NT:XR3/sky130_fd_pr__res_xhigh_po_0p35:0 vs. sky130_fd_pr__res_xhigh_po_0p35:R3:
+ l circuit1: 2.96   circuit2: 2.8   (delta=5.56%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: vittoz_pierce_osc               |Circuit 2: vittoz_pierce_osc               
+-------------------------------------------|-------------------------------------------
+EG_AVDD                                    |EG_AVDD                                    
+XOUT                                       |XOUT                                       
+AOUT                                       |AOUT                                       
+SG_AVDD                                    |SG_AVDD                                    
+EG_IBIAS                                   |EG_IBIAS                                   
+EG_AVSS                                    |EG_AVSS                                    
+XIN                                        |XIN                                        
+SG_AVSS                                    |SG_AVSS                                    
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes vittoz_pierce_osc and vittoz_pierce_osc are equivalent.
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MPZGNS in circuit sky130_ht_ip__hsxo_cpz1 (0)(1 instance)
+
+Cell sky130_ht_ip__hsxo_cpz1 (1) disconnected node: GUARD
+Class sky130_ht_ip__hsxo_cpz1 (0):  Merged 5 parallel devices.
+Cell sky130_ht_ip__hsxo_cpz1 (1) disconnected node: GUARD
+Subcircuit summary:
+Circuit 1: sky130_ht_ip__hsxo_cpz1         |Circuit 2: sky130_ht_ip__hsxo_cpz1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (28->7)       |sky130_fd_pr__pfet_g5v0d10v5 (7)           
+sky130_fd_pr__nfet_g5v0d10v5 (20->6)       |sky130_fd_pr__nfet_g5v0d10v5 (6)           
+sky130_fd_pr__diode_pd2nw_11v0 (1)         |sky130_fd_pr__diode_pd2nw_11v0 (1)         
+sky130_fd_pr__diode_pw2nd_11v0 (1)         |sky130_fd_pr__diode_pw2nd_11v0 (1)         
+sky130_fd_pr__nfet_01v8 (18->4)            |sky130_fd_pr__nfet_01v8 (4)                
+sky130_fd_pr__pfet_01v8 (10->3)            |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__cap_mim_m3_1 (18->3)         |sky130_fd_pr__cap_mim_m3_1 (18->3)         
+schmitt_trigger_pullmid (1)                |schmitt_trigger_pullmid (1)                
+vittoz_pierce_osc (1)                      |vittoz_pierce_osc (1)                      
+Number of devices: 27                      |Number of devices: 27                      
+Number of nets: 26 **Mismatch**            |Number of nets: 27 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: sky130_ht_ip__hsxo_cpz1         |Circuit 2: sky130_ht_ip__hsxo_cpz1         
+
+---------------------------------------------------------------------------------------
+Net: XIN                                   |Net: XIN                                   
+  vittoz_pierce_osc/XIN = 1                |  vittoz_pierce_osc/XIN = 1                
+  sky130_fd_pr__diode_pd2nw_11v0/1 = 1     |  sky130_fd_pr__diode_pd2nw_11v0/1 = 1     
+  sky130_fd_pr__diode_pw2nd_11v0/2 = 1     |  sky130_fd_pr__diode_pw2nd_11v0/cathode = 
+  vittoz_pierce_osc/SG_AVDD = 1            |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+                                           |                                           
+(no matching net)                          |Net: SG_AVDD                               
+                                           |  vittoz_pierce_osc/SG_AVDD = 1            
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: AVSS                                  |Net: AVSS                                  
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 6   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 6   
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 6       |  sky130_fd_pr__nfet_g5v0d10v5/4 = 6       
+  sky130_fd_pr__diode_pw2nd_11v0/1 = 1     |  sky130_fd_pr__diode_pw2nd_11v0/anode = 1 
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: /power_gating_0//power_gating_ad_1//s |Net: power_gating:3/dummy_24               
+  sky130_fd_pr__diode_pw2nd_11v0/proxycath |  sky130_fd_pr__diode_pw2nd_11v0/proxy2 =  
+                                           |                                           
+Net: /power_gating_0//power_gating_ad_1//s |Net: power_gating:3/dummy_23               
+  sky130_fd_pr__diode_pw2nd_11v0/proxyanod |  sky130_fd_pr__diode_pw2nd_11v0/proxy1 =  
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: sky130_ht_ip__hsxo_cpz1         |Circuit 2: sky130_ht_ip__hsxo_cpz1         
+
+---------------------------------------------------------------------------------------
+Instance: power_gating_0//power_gating_ad_ |Instance: power_gating:3/sky130_fd_pr__dio 
+  1 = 14                                   |  proxy1 = 1                               
+  2 = 5                                    |  proxy2 = 1                               
+  proxyanode = 1                           |  anode = 14                               
+  proxycathode = 1                         |  cathode = 3                              
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: sky130_ht_ip__hsxo_cpz1         |Circuit 2: sky130_ht_ip__hsxo_cpz1         
+-------------------------------------------|-------------------------------------------
+XIN                                        |(no matching pin)                          
+ENA                                        |ENA                                        
+STDBY                                      |STDBY                                      
+GUARD                                      |(no matching pin)                          
+DOUT                                       |DOUT                                       
+DVSS                                       |DVSS                                       
+DVDD                                       |DVDD                                       
+AVSS                                       |AVSS                                       
+XOUT                                       |XOUT                                       
+IBIAS                                      |IBIAS                                      
+AVDD                                       |AVDD                                       
+(no matching pin)                          |XIN                                        
+(no matching pin)                          |GUARD                                      
+XIN                                        |(no matching pin)                          
+GUARD                                      |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for sky130_ht_ip__hsxo_cpz1 and sky130_ht_ip__hsxo_cpz1 altered to match.
+Device classes sky130_ht_ip__hsxo_cpz1 and sky130_ht_ip__hsxo_cpz1 are equivalent.
+
+Final result: Top level cell failed pin matching.
+
+The following cells had property errors:
+ schmitt_trigger_pullmid
+ vittoz_pierce_osc
