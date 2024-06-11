@@ -1,15 +1,20 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1714587641
+timestamp 1718125978
+<< isosubstrate >>
+rect 1877 3040 4873 3830
+rect 3340 2540 4873 3040
+rect 1877 1812 4873 2540
+rect 1877 920 3530 1812
+rect 1877 -1963 4873 920
 << nwell >>
 rect 1591 3830 5159 4119
 rect 1591 3793 1880 3830
-rect 4870 3793 5159 3830
 rect 1591 3040 1877 3793
 rect 1591 2540 3340 3040
 rect 1591 -1963 1877 2540
-rect 4873 1810 5159 3793
+rect 4873 1810 5159 3830
 rect 4160 1540 5159 1810
 rect 4520 920 5159 1540
 rect 4873 -1963 5159 920
@@ -36,6 +41,8 @@ rect 1628 -2158 5122 -2138
 rect 1628 -2192 1708 -2158
 rect 5042 -2192 5122 -2158
 rect 1628 -2212 5122 -2192
+<< mvpsubdiff >>
+rect 4126 4428 4302 4462
 << psubdiffcont >>
 rect 2440 3180 3240 3380
 << nsubdiffcont >>
@@ -356,19 +363,23 @@ rect 4930 -3585 5050 16380
 rect 4930 -3685 4935 -3585
 rect 5045 -3685 5050 -3585
 rect 4930 -3695 5050 -3685
-use sky130_fd_pr__res_xhigh_po_0p35_33YP5M  sky130_fd_pr__res_xhigh_po_0p35_33YP5M_0
-timestamp 1712840312
-transform 1 0 3960 0 1 2818
-box -450 -998 450 998
-use sky130_fd_pr__cap_mim_m3_1_MPZGNS  XC4
+use sky130_fd_pr__res_xhigh_po_0p35_UPT64K  sky130_fd_pr__res_xhigh_po_0p35_UPT64K_0 paramcells
+timestamp 1718125978
+transform 1 0 3960 0 1 2802
+box -450 -982 450 982
+use sky130_fd_pr__res_xhigh_po_0p35_UPT64K  sky130_fd_pr__res_xhigh_po_0p35_UPT64K_1
+timestamp 1718125978
+transform 1 0 3960 0 1 -948
+box -450 -982 450 982
+use sky130_fd_pr__cap_mim_m3_1_MPZGNS  XC4 paramcells
 timestamp 1713813547
 transform 1 0 3346 0 1 6420
 box -1686 -9960 1686 9960
-use sky130_fd_pr__pfet_01v8_6QYSWZ  XM3
+use sky130_fd_pr__pfet_01v8_6QYSWZ  XM3 paramcells
 timestamp 1713241921
 transform 0 1 3849 -1 0 1146
 box -226 -319 226 319
-use sky130_fd_pr__nfet_01v8_723X3M  XM4
+use sky130_fd_pr__nfet_01v8_723X3M  XM4 paramcells
 timestamp 1712827999
 transform 0 1 3850 -1 0 696
 box -216 -310 216 310
@@ -388,14 +399,10 @@ use sky130_fd_pr__nfet_01v8_723X3M  XM8
 timestamp 1712827999
 transform 1 0 4376 0 1 610
 box -216 -310 216 310
-use sky130_fd_pr__res_xhigh_po_0p35_33YP5M  XR2
-timestamp 1712840312
-transform 1 0 3960 0 1 -932
-box -450 -998 450 998
-use sky130_fd_pr__res_xhigh_po_0p35_METDPQ  XR3
-timestamp 1713239999
-transform 1 0 2742 0 1 272
-box -782 -2202 782 2202
+use sky130_fd_pr__res_xhigh_po_0p35_J44QPS  XR3 paramcells
+timestamp 1718125978
+transform 1 0 2742 0 1 252
+box -782 -2182 782 2182
 << labels >>
 flabel metal2 1390 820 1590 1020 0 FreeSans 256 0 0 0 AIN
 port 2 nsew
@@ -405,4 +412,6 @@ flabel metal2 4480 16620 4680 16820 0 FreeSans 256 0 0 0 SG_DVDD
 port 1 nsew
 flabel metal2 4480 -3990 4680 -3790 0 FreeSans 256 0 0 0 SG_DVSS
 port 4 nsew
+flabel mvpsubdiff 4208 4445 4208 4445 0 FreeSans 320 0 0 0 VSUB
+port 5 nsew
 << end >>

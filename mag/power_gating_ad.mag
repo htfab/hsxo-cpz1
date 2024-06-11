@@ -697,15 +697,15 @@ use level_shifter_ad  level_shifter_ad_1
 timestamp 1713804741
 transform 1 0 3560 0 1 2910
 box 880 -1970 2310 -210
-use sky130_fd_pr__diode_pd2nw_11v0_K4SERG  sky130_fd_pr__diode_pd2nw_11v0_K4SERG_0
+use sky130_fd_pr__diode_pd2nw_11v0_K4SERG  sky130_fd_pr__diode_pd2nw_11v0_K4SERG_0 paramcells
 timestamp 1713804741
 transform 1 0 1373 0 1 -7147
 box -423 -423 423 423
-use sky130_fd_pr__diode_pw2nd_11v0_FT76RJ  sky130_fd_pr__diode_pw2nd_11v0_FT76RJ_0
+use sky130_fd_pr__diode_pw2nd_11v0_FT76RJ  sky130_fd_pr__diode_pw2nd_11v0_FT76RJ_0 paramcells
 timestamp 1713804741
 transform 1 0 2212 0 1 -7147
 box -217 -217 217 217
-use sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ  sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ_0
+use sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ  sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ_0 paramcells
 timestamp 1713804741
 transform 1 0 3641 0 1 -6862
 box -831 -658 831 658
@@ -713,7 +713,7 @@ use sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ  sky130_fd_pr__nfet_g5v0d10v5_CPEQJZ_1
 timestamp 1713804741
 transform 1 0 5841 0 1 -6862
 box -831 -658 831 658
-use sky130_fd_pr__pfet_g5v0d10v5_KL7ZY6  sky130_fd_pr__pfet_g5v0d10v5_KL7ZY6_0
+use sky130_fd_pr__pfet_g5v0d10v5_KL7ZY6  sky130_fd_pr__pfet_g5v0d10v5_KL7ZY6_0 paramcells
 timestamp 1713804741
 transform 1 0 1671 0 1 -2563
 box -861 -697 861 697

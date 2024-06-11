@@ -86,11 +86,11 @@ rect 540 -1800 550 -1740
 rect 630 -1800 641 -1740
 rect 540 -1805 641 -1800
 rect 540 -1810 640 -1805
-use sky130_fd_pr__nfet_01v8_648S5X  XM18
+use sky130_fd_pr__nfet_01v8_648S5X  XM18 paramcells
 timestamp 1713804741
 transform 1 0 591 0 1 -1600
 box -211 -310 211 310
-use sky130_fd_pr__pfet_01v8_XGS3BL  XM27
+use sky130_fd_pr__pfet_01v8_XGS3BL  XM27 paramcells
 timestamp 1713804741
 transform 1 0 591 0 1 -971
 box -211 -319 211 319

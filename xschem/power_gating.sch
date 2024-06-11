@@ -245,3 +245,5 @@ C {devices/lab_pin.sym} 470 -240 0 1 {name=p56 sig_type=std_logic lab=SG_AVSS}
 C {devices/lab_pin.sym} 860 -340 0 0 {name=p57 sig_type=std_logic lab=SG_DVDD}
 C {devices/lab_pin.sym} 860 -240 0 0 {name=p58 sig_type=std_logic lab=SG_DVSS}
 C {devices/ipin.sym} 1120 -910 0 0 {name=p59 lab=XIN}
+C {devices/iopin.sym} 930 -880 0 0 {name=p60 lab=VSUB
+}

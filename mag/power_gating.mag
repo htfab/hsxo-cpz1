@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1714587912
+timestamp 1718125767
 << dnwell >>
 rect -1970 -7210 5210 4580
 rect -2520 -14610 2220 -9310
@@ -35,6 +35,8 @@ rect -2563 -14599 2263 -14579
 rect -2563 -14633 -2483 -14599
 rect 2183 -14633 2263 -14599
 rect -2563 -14653 2263 -14633
+<< mvpsubdiff >>
+rect -1348 -7633 -995 -7599
 << mvnsubdiff >>
 rect -2013 4603 5253 4623
 rect -2013 4569 -1933 4603
@@ -273,7 +275,7 @@ use power_gating_dd  power_gating_dd_0
 timestamp 1713804741
 transform 1 0 -3664 0 1 -8010
 box 1304 -6360 6360 -1320
-use sky130_fd_pr__cap_mim_m3_1_MPZGNS  XC3
+use sky130_fd_pr__cap_mim_m3_1_MPZGNS  XC3 paramcells
 timestamp 1713813547
 transform 1 0 1296 0 1 -4550
 box -1686 -9960 1686 9960
@@ -314,4 +316,6 @@ flabel metal2 -2360 -14170 -1960 -13770 0 FreeSans 256 0 0 0 DVSS
 port 15 nsew
 flabel metal2 -3150 -7360 -2350 -6560 0 FreeSans 256 0 0 0 AVSS
 port 14 nsew
+flabel mvpsubdiff -1175 -7615 -1175 -7615 0 FreeSans 320 0 0 0 VSUB
+port 17 nsew
 << end >>

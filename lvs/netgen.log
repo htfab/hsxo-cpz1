@@ -1,4 +1,4 @@
-Netgen 1.5.276 compiled on Fri 31 May 2024 03:07:03 PM EDT
+Netgen 1.5.273 compiled on Tue May 14 15:25:31 EDT 2024
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
@@ -20,6 +20,8 @@ Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_11v0
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_01v8
 Creating placeholder cell definition.
@@ -48,7 +50,7 @@ Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__diode_pd2nw_11v0
 Creating placeholder cell definition.
 
-Reading setup file /home/azwefabless/.volare/volare/sky130/versions/42cd15c469adc1d303ffca4a7d32c29a4564a737/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Reading setup file /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
 
 Model sky130_fd_pr__res_xhigh_po_0p35 pin 1 == 2
 No property w found for device sky130_fd_pr__res_xhigh_po_0p35
@@ -67,7 +69,7 @@ No property mult found for device sky130_fd_pr__res_generic_nd__hv
 Model sky130_fd_pr__res_generic_pd__hv pin 1 == 2
 No property value found for device sky130_fd_pr__res_generic_pd__hv
 No property mult found for device sky130_fd_pr__res_generic_pd__hv
-Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No such pin 1 in model sky130_fd_pr__res_generic_po
 No property mult found for device sky130_fd_pr__res_generic_po
 Model sky130_fd_pr__nfet_01v8 pin 1 == 3
 No property mult found for device sky130_fd_pr__nfet_01v8
@@ -199,19 +201,13 @@ No property nrs found for device sky130_fd_pr__pfet_g5v0d10v5
 No property area found for device sky130_fd_pr__pfet_g5v0d10v5
 No property perim found for device sky130_fd_pr__pfet_g5v0d10v5
 No property topography found for device sky130_fd_pr__pfet_g5v0d10v5
-No property pj found for device sky130_fd_pr__diode_pw2nd_11v0
 No property value found for device sky130_fd_pr__diode_pw2nd_11v0
-No property pj found for device sky130_fd_pr__diode_pw2nd_11v0
 No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
 No property value found for device sky130_fd_pr__diode_pw2nd_11v0
 No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
-No property pj found for device sky130_fd_pr__diode_pd2nw_11v0
 No property value found for device sky130_fd_pr__diode_pd2nw_11v0
-No property pj found for device sky130_fd_pr__diode_pd2nw_11v0
 No property mult found for device sky130_fd_pr__diode_pd2nw_11v0
-No property pj found for device sky130_fd_pr__diode_pd2nw_11v0
 No property value found for device sky130_fd_pr__diode_pd2nw_11v0
-No property pj found for device sky130_fd_pr__diode_pd2nw_11v0
 No property mult found for device sky130_fd_pr__diode_pd2nw_11v0
 No property area found for device sky130_fd_pr__cap_mim_m3_1
 No property value found for device sky130_fd_pr__cap_mim_m3_1
@@ -230,14 +226,6 @@ Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
 Circuit sky130_fd_pr__pfet_01v8 contains no devices.
 Circuit sky130_fd_pr__nfet_01v8 contains no devices.
 Circuit sky130_fd_pr__diode_pd2nw_11v0 contains no devices.
-
-Contents of circuit 1:  Circuit: 'sky130_fd_pr__diode_pw2nd_11v0'
-Circuit sky130_fd_pr__diode_pw2nd_11v0 contains 0 device instances.
-Circuit contains 0 nets.
-Contents of circuit 2:  Circuit: 'sky130_fd_pr__diode_pw2nd_11v0'
-Circuit sky130_fd_pr__diode_pw2nd_11v0 contains 0 device instances.
-Circuit contains 0 nets, and 2 disconnected pins.
-
 Circuit sky130_fd_pr__diode_pw2nd_11v0 contains no devices.
 Circuit sky130_fd_pr__cap_mim_m3_1 contains no devices.
 Circuit sky130_fd_pr__res_xhigh_po_0p35 contains no devices.
@@ -251,7 +239,7 @@ Circuit power_gating contains 90 device instances.
   Class: sky130_fd_pr__pfet_01v8 instances:  10
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  20
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  28
-Circuit contains 24 nets, and 1 disconnected pin.
+Circuit contains 22 nets, and 2 disconnected pins.
 Contents of circuit 2:  Circuit: 'power_gating'
 Circuit power_gating contains 24 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   4
@@ -261,7 +249,7 @@ Circuit power_gating contains 24 device instances.
   Class: sky130_fd_pr__pfet_01v8 instances:   3
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   7
-Circuit contains 24 nets.
+Circuit contains 22 nets, and 1 disconnected pin.
 
 Circuit was modified by parallel/series device merging.
 New circuit summary:
@@ -275,7 +263,7 @@ Circuit power_gating contains 24 device instances.
   Class: sky130_fd_pr__pfet_01v8 instances:   3
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   7
-Circuit contains 24 nets, and 1 disconnected pin.
+Circuit contains 22 nets, and 2 disconnected pins.
 Contents of circuit 2:  Circuit: 'power_gating'
 Circuit power_gating contains 24 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   4
@@ -285,15 +273,15 @@ Circuit power_gating contains 24 device instances.
   Class: sky130_fd_pr__pfet_01v8 instances:   3
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   7
-Circuit contains 24 nets.
+Circuit contains 22 nets, and 1 disconnected pin.
 
 Circuit 1 contains 24 devices, Circuit 2 contains 24 devices.
-Circuit 1 contains 24 nets,    Circuit 2 contains 24 nets.
+Circuit 1 contains 22 nets,    Circuit 2 contains 22 nets.
 
   Flattening non-matched subcircuits power_gating power_gating
 
 Flattening instances of power_gating in file ../netlist/layout/sky130_ht_ip__hsxo_cpz1.spice
-Flattening instances of power_gating in file ../netlist/schematic/sky130_ht_ip__hsxo_cpz1.spice
+Flattening instances of power_gating in file /usr/share/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 Contents of circuit 1:  Circuit: 'schmitt_trigger_pullmid'
 Circuit schmitt_trigger_pullmid contains 28 device instances.
@@ -301,7 +289,7 @@ Circuit schmitt_trigger_pullmid contains 28 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   6
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:  16
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 20 nets.
+Circuit contains 20 nets, and 1 disconnected pin.
 Contents of circuit 2:  Circuit: 'schmitt_trigger_pullmid'
 Circuit schmitt_trigger_pullmid contains 11 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
@@ -309,7 +297,7 @@ Circuit schmitt_trigger_pullmid contains 11 device instances.
   Class: vsrc                  instances:   1
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   3
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 8 nets.
+Circuit contains 8 nets, and 1 disconnected pin.
 
 Flattened mismatched instances and attempting compare again.
 
@@ -319,14 +307,14 @@ Circuit schmitt_trigger_pullmid contains 28 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   6
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:  16
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 20 nets.
+Circuit contains 20 nets, and 1 disconnected pin.
 Contents of circuit 2:  Circuit: 'schmitt_trigger_pullmid'
 Circuit schmitt_trigger_pullmid contains 10 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   1
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   3
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 7 nets.
+Circuit contains 7 nets, and 1 disconnected pin.
 
 Circuit was modified by parallel/series device merging.
 New circuit summary:
@@ -337,14 +325,14 @@ Circuit schmitt_trigger_pullmid contains 10 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   1
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   3
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 7 nets.
+Circuit contains 7 nets, and 1 disconnected pin.
 Contents of circuit 2:  Circuit: 'schmitt_trigger_pullmid'
 Circuit schmitt_trigger_pullmid contains 10 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   1
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   3
   Class: sky130_fd_pr__pfet_01v8 instances:   3
-Circuit contains 7 nets.
+Circuit contains 7 nets, and 1 disconnected pin.
 
 Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
 Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
@@ -428,7 +416,7 @@ Circuit sky130_ht_ip__hsxo_cpz1 contains 27 device instances.
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   7
   Class: schmitt_trigger_pullmid instances:   1
-Circuit contains 27 nets, and 1 disconnected pin.
+Circuit contains 27 nets.
 
 Circuit was modified by parallel/series device merging.
 New circuit summary:
@@ -456,19 +444,14 @@ Circuit sky130_ht_ip__hsxo_cpz1 contains 27 device instances.
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   7
   Class: schmitt_trigger_pullmid instances:   1
-Circuit contains 27 nets, and 1 disconnected pin.
+Circuit contains 27 nets.
 
 Circuit 1 contains 27 devices, Circuit 2 contains 27 devices.
-Circuit 1 contains 26 nets,    Circuit 2 contains 27 nets. *** MISMATCH ***
+Circuit 1 contains 26 nets,    Circuit 2 contains 26 nets.
 
 
 Final result: 
-Top level cell failed pin matching.
-
-
-The following cells had property errors:
- schmitt_trigger_pullmid
- vittoz_pierce_osc
-
+Circuits match uniquely.
+.
 Logging to file "sky130_ht_ip__hsxo_cpz1.out" disabled
 LVS Done.
