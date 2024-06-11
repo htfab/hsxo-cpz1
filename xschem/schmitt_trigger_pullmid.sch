@@ -166,3 +166,4 @@ mult=1}
 C {devices/lab_pin.sym} 180 -360 0 0 {name=p1 sig_type=std_logic lab=SG_DVSS}
 C {devices/lab_pin.sym} 180 -160 0 0 {name=p15 sig_type=std_logic lab=SG_DVSS}
 C {devices/ammeter.sym} 370 -330 0 0 {name=Vmeas6 savecurrent=true}
+C {devices/iopin.sym} 60 -500 0 0 {name=p16 lab=VSUB}

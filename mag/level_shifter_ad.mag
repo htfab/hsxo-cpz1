@@ -152,11 +152,11 @@ rect 1490 -1920 1540 -1820
 rect 1640 -1920 1690 -1820
 rect 1490 -1970 1690 -1920
 rect 1800 -1970 2000 -1770
-use sky130_fd_pr__pfet_g5v0d10v5_KLAZY6  XM1
+use sky130_fd_pr__pfet_g5v0d10v5_KLAZY6  XM1 paramcells
 timestamp 1713804741
 transform 1 0 1898 0 1 -693
 box -308 -397 308 397
-use sky130_fd_pr__nfet_g5v0d10v5_UNEQ2N  XM2
+use sky130_fd_pr__nfet_g5v0d10v5_UNEQ2N  XM2 paramcells
 timestamp 1713804741
 transform 1 0 1898 0 1 -1502
 box -278 -358 278 358
