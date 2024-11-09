@@ -105,8 +105,8 @@ lab=SG_DVSS}
 N 1000 -270 1030 -270 {
 lab=DOUT}
 C {devices/lab_pin.sym} 200 -490 0 0 {name=p3 sig_type=std_logic lab=IBIAS}
-C {level_shifter.sym} 370 -700 0 0 {name=x3}
-C {level_shifter.sym} 860 -700 0 0 {name=x4}
+C {level_shifter_xd.sym} 370 -700 0 0 {name=x3}
+C {level_shifter_xd.sym} 860 -700 0 0 {name=x4}
 C {devices/lab_pin.sym} 220 -700 0 0 {name=p4 sig_type=std_logic lab=ENA}
 C {devices/lab_pin.sym} 520 -730 0 1 {name=p5 sig_type=std_logic lab=ENA_B}
 C {devices/lab_pin.sym} 520 -700 0 1 {name=p6 sig_type=std_logic lab=ENA_H}
@@ -245,3 +245,5 @@ C {devices/lab_pin.sym} 470 -240 0 1 {name=p56 sig_type=std_logic lab=SG_AVSS}
 C {devices/lab_pin.sym} 860 -340 0 0 {name=p57 sig_type=std_logic lab=SG_DVDD}
 C {devices/lab_pin.sym} 860 -240 0 0 {name=p58 sig_type=std_logic lab=SG_DVSS}
 C {devices/ipin.sym} 1120 -910 0 0 {name=p59 lab=XIN}
+C {devices/iopin.sym} 930 -880 0 0 {name=p60 lab=VSUB
+}

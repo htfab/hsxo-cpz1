@@ -335,11 +335,11 @@ use level_shifter_dd  level_shifter_dd_1
 timestamp 1713804741
 transform 1 0 3944 0 1 -1070
 box 220 -1910 960 -652
-use sky130_fd_pr__nfet_01v8_HNLS5R  sky130_fd_pr__nfet_01v8_HNLS5R_0
+use sky130_fd_pr__nfet_01v8_HNLS5R  sky130_fd_pr__nfet_01v8_HNLS5R_0 paramcells
 timestamp 1713804741
 transform 1 0 4405 0 1 -5720
 box -551 -610 551 610
-use sky130_fd_pr__pfet_01v8_XGNZDL  sky130_fd_pr__pfet_01v8_XGNZDL_0
+use sky130_fd_pr__pfet_01v8_XGNZDL  sky130_fd_pr__pfet_01v8_XGNZDL_0 paramcells
 timestamp 1713804741
 transform 1 0 2651 0 1 -3831
 box -551 -619 551 619
